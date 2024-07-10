@@ -7,3 +7,4 @@ while contador <= numero:
     contador += 1
 
 print(fatorial)
+print('teste')
