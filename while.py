@@ -95,6 +95,27 @@
 #em seguida, calcule a soma dos dígitos desse número usando um loop while.
 #Ao término, informe que o programa foi encerrado.
 
+# num = int(input("Digite um número inteiro: "))
+# somadigitos = 0
+
+# while (num > 0):
+#     resto = num % 10
+#     num = (num - resto)/10
+#     somadigitos = int(somadigitos + resto)
+
+# print("A soma dos números é =", somadigitos)
+
 ###9 Escreva um programa que peça ao usuário para digitar um número inteiro e,
 #em seguida, calcule a soma dos dígitos desse número usando um loop while.
 #Ao término, informe que o programa foi encerrado.
+
+# soma = 0
+# numero = 1
+
+# n = int(input("Digite um número: "))
+
+# while numero <= n:
+#     soma = soma + 1 / numero
+#     numero = numero + 1
+
+# print("A soma da séria harmônica é =", soma, "\nFim do programa.")
