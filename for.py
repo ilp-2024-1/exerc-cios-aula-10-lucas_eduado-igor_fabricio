@@ -46,28 +46,28 @@
 #somatório desses números primos. Ao término, informe que o programa foi
 #encerrado.
 
-v_ini = int(input("Digite o início do intervalo: "))
-v_fim = int(input("Digite o fim do intervalo: "))
-soma = 0
+# v_ini = int(input("Digite o início do intervalo: "))
+# v_fim = int(input("Digite o fim do intervalo: "))
+# soma = 0
 
-for x in range(v_ini, v_fim+1):
-    if (x != 1):
-        if (x % x == 0 and x % 1 == x):  
-            print(x, end=", ")
-            soma = soma + x
-        if (x % 5 != 0):
-            if (x == 2):
-                soma = soma + x
-                print(x, end=", ")
-            elif (x == 3):
-                soma = soma + x
-                print(x, end=", ") 
-            elif (x % 2 != 0 and x % 3 != 0):
-                soma = soma + x
-                print(x, end=", ")
+# for x in range(v_ini, v_fim+1):
+#     if (x != 1):
+#         if (x % x == 0 and x % 1 == x):  
+#             print(x, end=", ")
+#             soma = soma + x
+#         if (x % 5 != 0):
+#             if (x == 2):
+#                 soma = soma + x
+#                 print(x, end=", ")
+#             elif (x == 3):
+#                 soma = soma + x
+#                 print(x, end=", ") 
+#             elif (x % 2 != 0 and x % 3 != 0):
+#                 soma = soma + x
+#                 print(x, end=", ")
 
-print("\n Somatória dos números primos = ", soma)
-print("Fim do programa")
+# print("\n Somatória dos números primos = ", soma)
+# print("Fim do programa")
 
 
 ###6 Escreva um programa que converta uma faixa de temperaturas de Celsius para
@@ -75,3 +75,9 @@ print("Fim do programa")
 #valor final e o incremento. Em seguida, deve imprimir cada valor em Celsius e
 #sua conversão correspondente para Fahrenheit. Ex: 25, 35 e 5 à 25°C =
 #77.0°F; 30°C = 86.0°F; 35°C = 95.0°F
+# v_ini = int(input("Digite o início do intervalo: "))
+# v_fim = int(input("Digite o fim do intervalo: "))
+# v_incremento = int(input("Digite o valor do incremento: "))
+
+# for x in range(v_ini, v_fim+1, v_incremento):
+#     print(f"{x}°C = {x * 9/5 + 32}°F")
