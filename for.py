@@ -40,3 +40,38 @@
 #     print(x, end=", ")
 # print("\n Programa encerrado.")
 
+
+###5 Escreva um programa que solicite do usuário dois valores positivos. Em
+#seguida, imprima todos os números primos contidos dentro desse intervalo e o
+#somatório desses números primos. Ao término, informe que o programa foi
+#encerrado.
+
+v_ini = int(input("Digite o início do intervalo: "))
+v_fim = int(input("Digite o fim do intervalo: "))
+soma = 0
+
+for x in range(v_ini, v_fim+1):
+    if (x != 1):
+        if (x % x == 0 and x % 1 == x):  
+            print(x, end=", ")
+            soma = soma + x
+        if (x % 5 != 0):
+            if (x == 2):
+                soma = soma + x
+                print(x, end=", ")
+            elif (x == 3):
+                soma = soma + x
+                print(x, end=", ") 
+            elif (x % 2 != 0 and x % 3 != 0):
+                soma = soma + x
+                print(x, end=", ")
+
+print("\n Somatória dos números primos = ", soma)
+print("Fim do programa")
+
+
+###6 Escreva um programa que converta uma faixa de temperaturas de Celsius para
+#Fahrenheit. O programa deve pedir ao usuário para digitar o valor inicial, o
+#valor final e o incremento. Em seguida, deve imprimir cada valor em Celsius e
+#sua conversão correspondente para Fahrenheit. Ex: 25, 35 e 5 à 25°C =
+#77.0°F; 30°C = 86.0°F; 35°C = 95.0°F
